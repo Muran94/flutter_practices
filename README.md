@@ -1,1 +1,3 @@
-# flutter_practices
+# Flutterのスキルアップを目的とした練習用コード置き場です。
+## アプリ一覧
+1. increment_counter - 5つのカウンターが並んでいて、個別にクリックすることで+1する。
