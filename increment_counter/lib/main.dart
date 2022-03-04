@@ -53,17 +53,18 @@ class _IncrementCounterState extends State<IncrementCounter> {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-        title: Text(
-          count.toString(),
+      title: Text(
+        count.toString(),
+      ),
+      trailing: const Text(
+        'COUNT UP',
+        style: TextStyle(
+          color: Colors.blue,
         ),
-        trailing: const Text(
-          'COUNT UP',
-          style: TextStyle(
-            color: Colors.blue,
-          ),
-        ),
-        onTap: () {
-          setState(() => {count++});
-        });
+      ),
+      onTap: () {
+        setState(() => {count++});
+      },
+    );
   }
 }
